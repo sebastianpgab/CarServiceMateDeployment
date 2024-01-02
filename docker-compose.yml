@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  fcarmateservice:
+    build: ./CarMateCustomerManager---front
+    image: fcarmateservice
+    ports:
+      - "3000:3000"
+    networks:
+      - myNetwork
+
+  apicarmateservice:
+    build: ./CarServiceMateApi
+    image: apicarmateservice:latest
+    ports:
+      - "4210:80"
+    networks:
+      - myNetwork
+
+  CarServiceMateDb:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: "Qwerty123!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    networks:
+      - myNetwork
+
+networks:
+  myNetwork:
