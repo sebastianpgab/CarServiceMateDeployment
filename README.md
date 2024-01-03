@@ -30,11 +30,16 @@ Klonuj oba repozytoria do lokalnego systemu:
 git clone https://github.com/sebastianpgab/CarServiceMateApi.git
 git clone https://github.com/sebastianpgab/CarMateCustomerManager---front.git
 
+```
+
 #### Krok 2: Uruchomienie Docker Compose
 
 W katalogu z plikiem docker-compose.yml, uruchom następujące polecenie, aby zbudować i uruchomić wszystkie usługi:
-
+```sh
 docker compose up
-
+```
 Podsumowanie
 Po wykonaniu tych kroków, aplikacja frontendowa powinna być dostępna na http://localhost:3000, a API na http://localhost:4210.
+
+
+
