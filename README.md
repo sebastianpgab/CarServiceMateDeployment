@@ -29,7 +29,7 @@ Klonuj oba repozytoria do lokalnego systemu:
 ```sh
 git clone https://github.com/sebastianpgab/CarServiceMateApi.git
 git clone https://github.com/sebastianpgab/CarMateCustomerManager---front.git
-```sh
+
 #### Krok 2: Uruchomienie Docker Compose
 
 W katalogu z plikiem docker-compose.yml, uruchom następujące polecenie, aby zbudować i uruchomić wszystkie usługi:
