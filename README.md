@@ -1,5 +1,7 @@
 # CarServiceMateDeployment
 
+# Projekty wykonał Sebastian Piątkowski nr_indeksu: 36371
+
 ## Dokumentacja Projektu Docker Compose dla CarServiceMate
 
 Projekt CarServiceMate składa się z trzech głównych komponentów: API (Backend), Frontend i bazy danych MS SQL Server. Poniższa dokumentacja zawiera instrukcje dotyczące konfiguracji i uruchomienia projektu przy użyciu Docker Compose.
